@@ -1,0 +1,14 @@
+{
+  "Vulnerabilities": [
+    {
+      "Description": "Allows attackers to inject malicious scripts into web pages viewed by other users.",
+      "Prevention": "Input validation, output encoding, HTTP-only cookies.",
+      "Name": "Cross-site scripting (XSS)"
+    },
+    {
+      "Description": "Allows attackers to execute malicious SQL statements in a web application's database.",
+      "Prevention": "Parameterized queries, input validation, least privilege principle.",
+      "Name": "SQL injection"
+    }
+  ]
+}
