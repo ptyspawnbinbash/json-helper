@@ -10,7 +10,7 @@ JSON Helper is a Python script designed to help you modify JSON files by updatin
 To use JSON Helper, run the script with the desired action, input JSON file, and the key-value pair to modify:
 
 ```
-python3 json-helper.py <action> <input_file> <key>:<new_value>
+python3 json_helper.py <action> <input_file> <key>:<new_value>
 ```
 **Update Key**
 
@@ -19,7 +19,7 @@ python3 json-helper.py <action> <input_file> <key>:<new_value>
 To rename a key, use the update-key action:
 
 ```
-python3 json-helper.py update-key sample.json Name:Sane
+python3 json_helper.py update-key sample.json Name:Sane
 ```
 
 ![After](screenshots/after_key_update.png)
@@ -29,6 +29,6 @@ python3 json-helper.py update-key sample.json Name:Sane
 To change the value associated with a key, use the update-value action:
 
 ```
-python3 json-helper.py update-value sample.json Sane:"More like Sane injection"
+python3 json_helper.py update-value sample.json Sane:"More like Sane injection"
 ```
 ![After](screenshots/after_value_update.png)
